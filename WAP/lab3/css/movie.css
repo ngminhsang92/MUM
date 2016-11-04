@@ -1,0 +1,85 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.container{
+     margin: -8px;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid #b3b086;
+    border-radius: 24px;
+    background-color: #a1b963;
+    overflow: hidden;
+    position: relative;
+}
+
+.header{
+    background: url("../images/bannerbg.png") repeat-x;
+}
+
+.header>img{
+    margin: 0 auto;
+    display: block;
+}
+
+h1.title {
+    text-align: center;
+}
+
+.content > aside{
+    width: 33%;
+    float:right;
+}
+
+.content aside div.overview{
+    border-radius: 0px 20px 0px 0px;
+}
+
+.content aside div.overview > img{
+    width: 100%;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.content > section{
+    width: 67%;
+    background-image: url("../images/background.png");
+    border-radius: 20px 0px 0px 0px;
+    position: absolute;
+    height: 96%;
+}
+
+section div.rotten{
+    background: url("../images/rbg.png") repeat-x;
+    border-radius: 20px 0px 0px 0px;
+    /*position: inherit;*/
+}
+
+section div.rotten > img{
+    border-radius: 20px 0px 0px 0px;
+    vertical-align: middle;
+}
+
+section div.rotten > span{
+    color: red;
+    font-weight: bold;
+    font-size: 75px;
+    position: absolute;
+}
+
+section div.review p:nth-child(2n+1){
+    border-radius: 10px;
+    border: 3px solid #a9a37d;
+    background-color: #e7dc9a;
+}
+
+section div.review{
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.content > p{
+    clear: right;
+}

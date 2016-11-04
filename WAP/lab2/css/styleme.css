@@ -1,0 +1,68 @@
+body{
+    background-color: #795747;
+    font-family: Arial,Verdana, "Time New Roman",serif;
+    color: wheat;
+}
+
+.heading{
+    color: #9fc0fd;
+    font-weight: bold;
+    font-family: Tahoma,"Arial Black",  serif;
+}
+
+p.introduce::first-letter {
+    font-size: 1.5em;
+}
+
+.title{
+    font-size: 34px;
+}
+
+.category{
+    font-family: Georgia, Tahoma, serif;
+}
+
+.personality{
+    color: #c7bd62;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.happy > img{
+    width: 320px;
+    height: 360px;
+}
+
+.sad > img{
+    width: 540px;
+    height: 360px;
+}
+
+section.movies > p{
+    font-style: italic;
+}
+
+section.movies > ol > li  a{
+    text-decoration: none;
+}
+
+section.movies > ol > li  a:visited { color: #636; }
+
+section.movies > ol > li  a:hover, a:active, a:focus { 
+    color: #c33; 
+    text-decoration: underline;
+}
+
+section.movies > ol > li dl dt {
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.movies > ol > li dl dd{
+    color: white;
+    font-size: 12px;
+}
+
+
+
